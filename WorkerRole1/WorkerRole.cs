@@ -23,6 +23,7 @@ namespace WorkerRole1
 
       try
       {
+        System.Diagnostics.Debug.WriteLine("HELLO!!!");
         this.RunAsync(this.cancellationTokenSource.Token).Wait();
       }
       finally
